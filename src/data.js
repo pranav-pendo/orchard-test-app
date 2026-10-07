@@ -1,5 +1,5 @@
 export const metrics = [
-  { label: "Active growers", value: "312" },
+  { label: "Active growers", value: "348" },
   { label: "On-time deliveries", value: "94%" },
   { label: "Open shipments", value: "27" },
   { label: "Monthly revenue", value: "$186.4k" },
