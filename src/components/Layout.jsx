@@ -1,10 +1,10 @@
 import { NavLink, Outlet } from "react-router-dom";
 
 const links = [
-  { to: "/dashboard", label: "Dashboard" },
-  { to: "/reports", label: "Reports" },
   { to: "/customers", label: "Customers" },
+  { to: "/dashboard", label: "Dashboard" },
   { to: "/billing", label: "Billing" },
+  { to: "/reports", label: "Reports" },
   { to: "/settings", label: "Settings" },
 ];
 
