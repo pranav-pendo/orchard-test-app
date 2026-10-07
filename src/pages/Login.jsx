@@ -5,6 +5,14 @@ export default function Login() {
 
   function handleSubmit(event) {
     event.preventDefault();
+
+    // Track successful sign-in before navigating away
+    const email = event.target.email?.value || "";
+    const domain = email.includes("@") ? email.split("@")[1] : "";
+    window.pendo?.track("user_signed_in", {
+      email_domain: domain,
+    });
+
     navigate("/dashboard");
   }
 

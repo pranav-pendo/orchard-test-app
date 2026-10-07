@@ -8,6 +8,12 @@ export default function Settings() {
   function handleSubmit(event) {
     event.preventDefault();
     setSaved(true);
+
+    // Track workspace settings save
+    window.pendo?.track("settings_saved", {
+      workspace_name: workspace,
+      timezone: timezone,
+    });
   }
 
   return (
