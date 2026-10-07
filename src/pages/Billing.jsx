@@ -3,7 +3,7 @@ import { invoices } from "../data.js";
 export default function Billing() {
   return (
     <>
-      <h1>Billing</h1>
+      <h1>Invoices</h1>
       <p className="subtitle">Plan, payment method, and invoice history.</p>
 
       <div className="card">
