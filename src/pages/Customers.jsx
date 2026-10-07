@@ -3,7 +3,7 @@ import { customers } from "../data.js";
 export default function Customers() {
   return (
     <>
-      <h1>Customers</h1>
+      <h1>Grocers</h1>
       <p className="subtitle">Accounts with at least one active seat.</p>
 
       <div className="card">
