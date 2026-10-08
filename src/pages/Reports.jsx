@@ -5,7 +5,7 @@ export default function Reports() {
   return (
     <>
       <h1>Reports</h1>
-      <p className="subtitle">Saved analyses your team can rerun at any time.</p>
+      <p className="subtitle">Saved analyses your team can open, refresh and share at any time.</p>
 
       <div className="card">
         <table>
