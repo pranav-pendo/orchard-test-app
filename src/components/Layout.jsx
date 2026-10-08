@@ -1,11 +1,11 @@
 import { NavLink, Outlet } from "react-router-dom";
 
 const links = [
-  { to: "/dashboard", label: "Dashboard" },
-  { to: "/customers", label: "Grocers" },
-  { to: "/settings", label: "Settings" },
-  { to: "/reports", label: "Reports" },
   { to: "/billing", label: "Invoices" },
+  { to: "/settings", label: "Settings" },
+  { to: "/customers", label: "Grocers" },
+  { to: "/dashboard", label: "Dashboard" },
+  { to: "/reports", label: "Reports" },
 ];
 
 export default function Layout() {
