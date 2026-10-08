@@ -5,7 +5,7 @@ export default function Dashboard() {
   return (
     <>
       <h1>Dashboard</h1>
-      <p className="subtitle">A snapshot of product usage across your workspace.</p>
+      <p className="subtitle">Today's orchard operations at a glance: growers, deliveries and revenue.</p>
 
       <div className="metrics">
         {metrics.map((metric) => (
