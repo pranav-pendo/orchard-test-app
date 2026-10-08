@@ -32,7 +32,7 @@ export default function Settings() {
           }}
         />
 
-        <label htmlFor="timezone">Reporting timezone</label>
+        <label htmlFor="timezone">Reporting timezone (applies to all reports)</label>
         <select
           id="timezone"
           value={timezone}
